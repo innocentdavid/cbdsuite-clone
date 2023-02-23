@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading1 {
+        @apply text-[57px] font-[poppins] leading-[68px] tracking-[0] font-bold;
+    }
+    .heading2 {
+        @apply text-[12px] font-[montserrat] font-semibold leading-[18px] tracking-[2px] uppercase text-[#1C7962];
+    }
+}
